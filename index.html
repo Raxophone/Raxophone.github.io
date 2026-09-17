@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <meta
         name="description"
-        content="Portfolio of Eddie Rak, Computer Science - Business Systems student at Bowling Green State University."
+        content="Eddie Rak - Computer Science and Business Systems portfolio."
     >
 
     <title>Eddie Rak | Portfolio</title>
@@ -17,256 +20,383 @@
 
 <body>
 
-<main>
+    <!-- ========================================
+         NAVIGATION
+    ========================================= -->
 
-    <!-- ===================== -->
-    <!-- HERO -->
-    <!-- ===================== -->
+    <nav class="navbar">
 
-    <section class="hero">
+        <div class="nav-content">
 
-        <h1>
-            Eddie <span>Rak</span>
-        </h1>
-
-        <h2 class="degree">
-            Computer Science — Business Systems
-        </h2>
-
-        <p class="school">
-            Bowling Green State University
-        </p>
-
-        <p class="hero-description">
-            Computer Science student interested in software development,
-            business systems, IT infrastructure, and building technology
-            that solves real-world problems.
-        </p>
-
-
-        <div class="main-links">
-
-            <a
-                href="Assets/resume.pdf"
-                target="_blank"
-                class="primary-button"
-            >
-                View Resume
+            <a class="nav-logo" href="#">
+                Eddie <span>Rak</span>
             </a>
 
-            <a
-                href="https://github.com/Raxophone"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                GitHub
-            </a>
-
-            <a
-                href="https://www.linkedin.com/in/edward-rak-57ab0a187/"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                LinkedIn
-            </a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
 
         </div>
 
-    </section>
+    </nav>
 
 
-    <!-- ===================== -->
-    <!-- ABOUT -->
-    <!-- ===================== -->
+    <main>
 
-    <section class="section">
+        <!-- ========================================
+             HERO
+        ========================================= -->
 
-        <div class="section-label">
-            <span>ABOUT ME</span>
-            <div class="line"></div>
-        </div>
+        <section class="hero">
 
-        <h2 class="section-title">
-            About Me
-        </h2>
+            <div class="hero-content">
 
-        <p class="section-text">
-            I'm a Computer Science — Business Systems student at
-            Bowling Green State University with experience in software
-            development, IT systems, manufacturing technology, and
-            business infrastructure.
-        </p>
+                <p class="eyebrow">
+                    BUILD &nbsp;•&nbsp; LEARN &nbsp;•&nbsp; SOLVE
+                </p>
 
+                <h1>
+                    Eddie <span>Rak</span>
+                </h1>
 
-        <div class="tech-stack">
+                <h2>
+                    Computer Science — Business Systems
+                </h2>
 
-            <span>C++</span>
-            <span>Python</span>
-            <span>SQL</span>
-            <span>Git</span>
-            <span>Linux</span>
-            <span>Microsoft 365</span>
-            <span>ERP Systems</span>
+                <p class="university">
+                    Bowling Green State University
+                </p>
 
-        </div>
-
-    </section>
+                <p class="hero-description">
+                    Computer Science student interested in software
+                    development, business systems, IT infrastructure,
+                    and building technology that solves real-world
+                    problems.
+                </p>
 
 
-    <!-- ===================== -->
-    <!-- PROJECTS -->
-    <!-- ===================== -->
+                <!-- IMPORTANT:
+                     Each button is its OWN <a>.
+                     They cannot merge together.
+                -->
 
-    <section class="section">
+                <div class="hero-buttons">
 
-        <div class="section-label">
-            <span>FEATURED PROJECTS</span>
-            <div class="line"></div>
-        </div>
+                    <a
+                        class="button button-primary"
+                        href="Assets/resume.pdf"
+                        target="_blank"
+                    >
+                        <span class="button-icon">▤</span>
+                        View Resume
+                    </a>
 
-        <h2 class="section-title">
-            Featured Projects
-        </h2>
+                    <a
+                        class="button"
+                        href="https://github.com/Raxophone"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub
+                    </a>
 
+                    <a
+                        class="button"
+                        href="https://www.linkedin.com/in/edward-rak-57ab0a187/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        LinkedIn
+                    </a>
 
-        <!-- DISCORD BOT -->
-
-        <div class="project">
-
-            <div class="project-header">
-
-                <h3>
-                    Discord Riddle Bot
-                </h3>
-
-                <span class="project-status">
-                    <span class="status-dot"></span>
-                    Live Project
-                </span>
+                </div>
 
             </div>
 
 
-            <p class="project-description">
-                A continuously hosted Discord bot that delivers daily
-                messages to users after they successfully solve a
-                weekly riddle.
+            <!-- Decorative coding card -->
+
+            <div class="hero-card">
+
+                <div class="code-symbol">
+                    &lt;/&gt;
+                </div>
+
+                <p>
+                    Turning ideas<br>
+                    into solutions
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================================
+             ABOUT
+        ========================================= -->
+
+        <section
+            class="page-section"
+            id="about"
+        >
+
+            <div class="section-heading">
+
+                <span>ABOUT ME</span>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <h2 class="section-title">
+                About Me
+            </h2>
+
+
+            <p class="section-description">
+                I'm a Computer Science — Business Systems student at
+                Bowling Green State University with experience in
+                software development, IT systems, manufacturing
+                technology, and business infrastructure.
             </p>
 
 
-            <h4>
-                Key Features
-            </h4>
+            <div class="skills">
 
-            <ul>
-                <li>
-                    Integrates directly with Discord servers and users
-                </li>
-
-                <li>
-                    Supports Discord slash commands and server-specific
-                    functionality
-                </li>
-
-                <li>
-                    Continuously hosted using Railway
-                </li>
-
-                <li>
-                    Automatically deploys updates from GitHub
-                </li>
-            </ul>
-
-
-            <h4>
-                Tech Stack
-            </h4>
-
-            <div class="tech-stack">
-
+                <span>C++</span>
                 <span>Python</span>
-                <span>Discord API</span>
-                <span>Railway</span>
-                <span>GitHub</span>
+                <span>SQL</span>
+                <span>Git</span>
+                <span>Linux</span>
+                <span>Microsoft 365</span>
+                <span>ERP Systems</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================================
+             PROJECTS
+        ========================================= -->
+
+        <section
+            class="page-section"
+            id="projects"
+        >
+
+            <div class="section-heading">
+
+                <span>FEATURED PROJECTS</span>
+
+                <div class="heading-line"></div>
 
             </div>
 
 
-            <h4>
-                What I Learned
-            </h4>
+            <h2 class="section-title">
+                Featured Projects
+            </h2>
 
-            <p>
-                This project provided experience with Python application
-                development, Discord API integration, environment variables,
-                Git-based deployment, and maintaining an application that
-                runs continuously in a production environment.
+
+            <!-- ====================================
+                 PROJECT 1
+            ===================================== -->
+
+            <article class="project-card">
+
+                <div class="project-top">
+
+                    <h3>
+                        Discord Riddle Bot
+                    </h3>
+
+
+                    <div class="live-status">
+
+                        <span class="live-dot"></span>
+
+                        Live Project
+
+                    </div>
+
+                </div>
+
+
+                <p class="project-summary">
+                    A continuously hosted Discord bot that delivers
+                    daily messages to users after they successfully
+                    solve a weekly riddle.
+                </p>
+
+
+                <div class="project-columns">
+
+
+                    <!-- FEATURES -->
+
+                    <div class="project-column">
+
+                        <h4>
+                            Key Features
+                        </h4>
+
+                        <ul>
+
+                            <li>
+                                Integrates directly with Discord
+                                servers and users
+                            </li>
+
+                            <li>
+                                Supports Discord slash commands
+                            </li>
+
+                            <li>
+                                Continuously hosted using Railway
+                            </li>
+
+                            <li>
+                                Automatically deploys updates
+                                from GitHub
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+                    <!-- TECH STACK -->
+
+                    <div class="project-column tech-column">
+
+                        <h4>
+                            Tech Stack
+                        </h4>
+
+                        <div class="skills">
+
+                            <span>Python</span>
+                            <span>Discord API</span>
+                            <span>Railway</span>
+                            <span>GitHub</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- LEARNING -->
+
+                <div class="learned">
+
+                    <h4>
+                        What I Learned
+                    </h4>
+
+                    <p>
+                        This project provided experience with Python
+                        application development, Discord API integration,
+                        environment variables, Git-based deployment,
+                        and maintaining an application that runs
+                        continuously in a production environment.
+                    </p>
+
+                </div>
+
+
+                <a
+                    class="project-button"
+                    href="https://github.com/Raxophone/DiscordBot_noPersonalData"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    View Project on GitHub →
+                </a>
+
+            </article>
+
+        </section>
+
+
+        <!-- ========================================
+             CONTACT
+        ========================================= -->
+
+        <section
+            class="page-section"
+            id="contact"
+        >
+
+            <div class="section-heading">
+
+                <span>CONTACT</span>
+
+                <div class="heading-line"></div>
+
+            </div>
+
+
+            <h2 class="section-title">
+                Let's Connect
+            </h2>
+
+
+            <p class="section-description">
+                I'm interested in opportunities involving software
+                development, IT, and business systems.
             </p>
 
 
-            <a
-                class="project-link"
-                href="https://github.com/Raxophone/DiscordBot_noPersonalData"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                View Project on GitHub →
-            </a>
+            <div class="contact-buttons">
 
-        </div>
-
-    </section>
+                <a
+                    class="button"
+                    href="https://github.com/Raxophone"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub
+                </a>
 
 
-    <!-- ===================== -->
-    <!-- CONTACT -->
-    <!-- ===================== -->
+                <a
+                    class="button"
+                    href="https://www.linkedin.com/in/edward-rak-57ab0a187/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn
+                </a>
 
-    <section class="section">
+            </div>
 
-        <div class="section-label">
-            <span>CONTACT</span>
-            <div class="line"></div>
-        </div>
+        </section>
 
-        <h2 class="section-title">
-            Let's Connect
-        </h2>
-
-        <p class="section-text">
-            I'm interested in opportunities involving software development,
-            IT, and business systems.
-        </p>
+    </main>
 
 
-        <div class="main-links">
+    <!-- ========================================
+         FOOTER
+    ========================================= -->
 
-            <a
-                href="https://github.com/Raxophone"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                GitHub
-            </a>
+    <footer>
 
-            <a
-                href="https://www.linkedin.com/in/edward-rak-57ab0a187/"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                LinkedIn
-            </a>
+        <span>
+            © 2026 Eddie Rak
+        </span>
 
-        </div>
+        <span>
+            Built with HTML & CSS
+        </span>
 
-    </section>
-
-</main>
-
-<footer>
-    © 2026 Eddie Rak
-</footer>
+    </footer>
 
 </body>
-
 </html>
