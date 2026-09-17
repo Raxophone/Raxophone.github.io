@@ -1,62 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Portfolio of Eddie Rak, Computer Science - Business Systems student at Bowling Green State University."
+    >
+
     <title>Eddie Rak | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <main>
-        <h1>Eddie Rak</h1>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">ER</a>
 
-        <p>
-            Computer Science — Business Systems
-            <br>
-            Bowling Green State University
-        </p>
-
-        <div class="links">
-            <a href="Assets/resume.pdf" target="_blank">View Resume</a>
-
-            <a href="https://github.com/raxophone" target="_blank">
-                GitHub
-            </a>
-
-            <a href="https://www.linkedin.com/in/edward-rak-57ab0a187/" target="_blank">
-                LinkedIn
-            </a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
         </div>
+    </nav>
 
-        <h2>Projects</h2>
 
-        <div class="project">
-            <h3>Discord Bot</h3>
-            <p>
-                Overview
-                Sends users daily messages if weekly riddle is solved.
+    <main>
 
-                Features
-                constant implementation through railway Discord Server integration for individual server and users
+        <!-- Hero -->
+        <section class="hero">
 
-                Tech Stack
-                python, railway
+            <p class="hero-label">COMPUTER SCIENCE • BUSINESS SYSTEMS</p>
 
-                How to Run
-                replace TOKEN with discord bot token add guild ID from server to allow / commands add messages.txt run bot.py
+            <h1>Eddie Rak</h1>
 
-                What I Learned
-                Live constant implementation through github and railway communicating Python in general.
+            <p class="hero-description">
+                Computer Science student at Bowling Green State University
+                interested in software development, business systems,
+                and building technology that solves real-world problems.
             </p>
 
-            <a href="https://github.com/Raxophone/DiscordBot_noPersonalData" target="_blank">
-                View on GitHub
-            </a>
-        </div>
+            <div class="links">
+
+                <a
+                    class="primary-button"
+                    href="Assets/resume.pdf"
+                    target="_blank"
+                >
+                    View Resume
+                </a>
+
+                <a
+                    href="https://github.com/Raxophone"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/edward-rak-57ab0a187/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- About -->
+        <section id="about">
+
+            <p class="section-label">ABOUT</p>
+
+            <h2>About Me</h2>
+
+            <p class="about-text">
+                I'm a Computer Science — Business Systems student at
+                Bowling Green State University with experience in software
+                development, IT systems, manufacturing technology, and
+                business infrastructure.
+            </p>
+
+            <div class="skills">
+
+                <span>C++</span>
+                <span>Python</span>
+                <span>SQL</span>
+                <span>Git</span>
+                <span>Linux</span>
+                <span>Microsoft 365</span>
+                <span>ERP Systems</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- Projects -->
+        <section id="projects">
+
+            <p class="section-label">MY WORK</p>
+
+            <h2>Featured Projects</h2>
+
+
+            <!-- Discord Bot -->
+            <div class="project">
+
+                <div class="project-header">
+
+                    <div>
+                        <p class="project-number">PROJECT 01</p>
+                        <h3>Discord Riddle Bot</h3>
+                    </div>
+
+                    <span class="project-status">
+                        Live Project
+                    </span>
+
+                </div>
+
+
+                <p class="project-description">
+                    A Discord bot that delivers daily messages to users
+                    after they successfully solve a weekly riddle.
+                </p>
+
+
+                <div class="project-content">
+
+                    <div>
+
+                        <h4>Key Features</h4>
+
+                        <ul>
+                            <li>
+                                Discord server and user integration
+                            </li>
+
+                            <li>
+                                Discord slash command support
+                            </li>
+
+                            <li>
+                                Continuous deployment through Railway
+                            </li>
+
+                            <li>
+                                Automatic deployment from GitHub
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+                    <div>
+
+                        <h4>What I Learned</h4>
+
+                        <p>
+                            Developed experience with Python,
+                            Discord API integration, environment
+                            variables, Git-based deployment, and
+                            maintaining a continuously running
+                            application.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <h4>Tech Stack</h4>
+
+                <div class="tech-stack">
+
+                    <span>Python</span>
+                    <span>Discord API</span>
+                    <span>Railway</span>
+                    <span>GitHub</span>
+
+                </div>
+
+
+                <a
+                    class="project-link"
+                    href="https://github.com/Raxophone/DiscordBot_noPersonalData"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    View Project on GitHub →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact">
+
+            <p class="section-label">CONTACT</p>
+
+            <h2>Let's Connect</h2>
+
+            <p class="contact-description">
+                Interested in software development, IT, and
+                business systems opportunities.
+            </p>
+
+            <div class="links">
+
+                <a
+                    href="https://github.com/Raxophone"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/edward-rak-57ab0a187/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn
+                </a>
+
+            </div>
+
+        </section>
 
     </main>
 
+
+    <footer>
+
+        <p>
+            © 2026 Eddie Rak
+        </p>
+
+    </footer>
+
 </body>
+
 </html>
